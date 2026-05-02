@@ -1,0 +1,9 @@
+# is float 
+def is_float(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+    print(is_float("3.14"))  # True
+    
